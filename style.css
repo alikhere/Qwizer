@@ -166,9 +166,13 @@ body {
     }
 }
 
-.info{
+.info h6{
+    text-align: center;
+}
+.info h5{
     margin-bottom: 0;
+    margin-top: 5px;
     background-color: #294567;
-    padding: 8px;
+    padding: 20px;
     border-radius: 25px;
 }
