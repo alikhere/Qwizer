@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -118,6 +119,83 @@ body {
     animation: pulse 1s ease-in-out infinite;
 }
 
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#category-select {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#category-select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.categorySelect {
+    width: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.categorySelect label {
+    font-size: 30px;
+    margin-bottom: 15px; 
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.categorySelect select {
+    width: 200px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #092345;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.categorySelect select option {
+    color: #000;
+}
+
+.categorySelect select:hover {
+    background-color: #175fa7;
+}
+
+
+.result-analysis {
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.result-analysis h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    
+}
+
+#strong-topic, #weak-topic {
+    font-weight: bold;
+}
+
+
+
 /* Adding Animation to Timer */
 @keyframes pulse{
     0%{
@@ -172,7 +250,8 @@ body {
 .info h5{
     margin-bottom: 0;
     margin-top: 5px;
-    background-color: #294567;
-    padding: 20px;
+    background-color: #294b74;
+    padding: 15px;
     border-radius: 25px;
 }
+

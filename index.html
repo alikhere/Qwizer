@@ -9,20 +9,50 @@
 </head>
 <body>
     <div class="alert">Alert</div>
+    <h1 id="heading">WELCOME TO QWIZER</h1>
+
+    <div class="categorySelect">
+        <label for="category">Choose a Topic</label>
+        <br/>
+        <select id="category">
+            <option value="18">Science: Computers</option>
+            <option value="9">General Knowledge</option>
+            <option value="11">Entertainment: Films</option>
+            <option value="21">Sports</option>
+            <option value="23">History</option>
+            <option value="random">Random</option>
+        </select>
+    </div>
+    
+
     <div class="btn startBtn">Start</div>
     <div class="container">
-        <h1>WELCOME TO QWIZER</h1>
         <div class="question"></div>
         <div class="choices"></div>
         <button class="btn nextBtn">Next</button>
         <div class="scoreCard"></div>
+
+        <div class="result-analysis" style="display: none;">
+            <br/> <br/>
+            <h3>Topic Performance Analysis</h3>
+            <br/>
+            <p id="strong-topic"></p>
+            <p id="weak-topic"></p>
+        </div>
+        
         <div class="timer"></div>
     </div>
     <div class="info">
-        <h6>Quizer v0.1.1</h6>
+        <h6>Quizer v2.1</h6>
         <h5>Made By Ali Khurshid</h5>
+        <br/>
+        <a href="https://github.com/alikhere" style="color:aliceblue;">Github</a>
+        <a href="https://www.linkedin.com/in/ali-khurshid-60904426b/" style="color:aliceblue;">LinkedIn</a>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
