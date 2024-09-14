@@ -237,6 +237,6 @@ const showPerformanceAnalysis = () => {
         }
     }
     
-    strong_topic.textContent = `Strong Topic-> ${strongTopic} (${bestScore.toFixed(2)}%)`;
-    weak_topic.textContent = `Weak Topic-> ${weakTopic} (${worstScore.toFixed(2)}%)`;
+    strong_topic.textContent = `Strong Topic:  ${strongTopic} (Accuracy: ${bestScore.toFixed(2)}%)`;
+    weak_topic.textContent = `Weak Topic:  ${weakTopic} (Accuracy: ${worstScore.toFixed(2)}%)`;
 };
